@@ -1,0 +1,26 @@
+Indirizzo Privato(si usa in scuola):192.168.40.16
+Indirizzo pubblico(si usa in casa):213.140.33.237
+DFL(Data definition language): sono i commandi per modificare la struttura del database
+DML(Data Manipolation language):sono i commandi per modificaer il contenuto del database
+i commandi basi per DFL sono:  Create: Per creare una nuova tabella/database
+                               Alter: Per Modificare la tabella/database
+                               Drop: Per Eliminare la tabella
+                               
+i commandi basi per DML sono:  Insert Into: Per inserire un informazione
+                               Up date: modificare una data nella tabella
+                               Delete: Elimina i dati
+                               
+altri commandi:1.              SELECT * FROM Table_Name                                        #Si può guardare tutta la tabella
+               2.              int identity(N,N)                                               #Il primo N sta per indicare il numero iniziale, invece il secondo numero è il numero di incremento
+               3.              PRIMARY KEY                                                     #Significa che i dati di quella colonna non può essere vuoto
+               4.              Tipo_Di_Dati FOREIGN KEY REFERENCES Table_Name(Colonna)         #Possiamo Prendere i chiavi esterni con questo codice
+               5.              delete/select Table_Name where Colonna = 0                      #Qui cerca i dati di quella colonna che corrisponde a 0
+               6.              insert into telefono(Numero,IDS)                                #Inseriamo i valori nelle determinatecolonne
+                               values('4846258479',6)
+               7.              Varchar(N)                                                      #è la lunghezza massima della stringa o numero che inseriamo
+               8.              update Table_Name set Colonna='XXX' where Colonna2=1            #Modifichiamo i dati con questo codice: La prima set mettiamo la data nuova, e con where lo troviamo il posto da mettere
+               9.              ALTER TABLE Orders                                              #Aggiunge una colonna straniera
+                               ADD FOREIGN KEY (Colonna1) REFERENCES Table_Name(Colonna);   
+               10.             SELECT Column + 1 as Column                                     #La l'addizione di 1 a tutti i numeri nella colonna
+                               FROM Table_Name;
+               
