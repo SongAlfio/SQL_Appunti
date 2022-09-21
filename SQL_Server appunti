@@ -14,7 +14,7 @@ altri commandi:1.              SELECT * FROM Table_Name                         
                2.              int identity(N,N)                                               #Il primo N sta per indicare il numero iniziale, invece il secondo numero è il numero di incremento
                3.              PRIMARY KEY                                                     #Significa che i dati di quella colonna non può essere vuoto
                4.              Tipo_Di_Dati FOREIGN KEY REFERENCES Table_Name(Colonna)         #Possiamo Prendere i chiavi esterni con questo codice
-               5.              delete/select Table_Name where Colonna = 0                      #Qui cerca i dati di quella colonna che corrisponde a 0
+               5.              delete/select Table_Name where Condizione                       #Qui cerca i dati di quella colonna che corrisponde a 0
                6.              insert into telefono(Numero,IDS)                                #Inseriamo i valori nelle determinatecolonne
                                values('4846258479',6)
                7.              Varchar(N)                                                      #è la lunghezza massima della stringa o numero che inseriamo
