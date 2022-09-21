@@ -18,7 +18,7 @@ altri commandi:1.              SELECT * FROM Table_Name                         
                6.              insert into telefono(Numero,IDS)                                #Inseriamo i valori nelle determinatecolonne
                                values('4846258479',6)
                7.              Varchar(N)                                                      #è la lunghezza massima della stringa o numero che inseriamo
-               8.              update Table_Name set Colonna='XXX' where Colonna2=1            #Modifichiamo i dati con questo codice: La prima set mettiamo la data nuova, e con where lo troviamo il posto da mettere
+               8.              update Table_Name set Colonna='XXX' where Condizione            #Modifichiamo i dati con questo codice: La prima set mettiamo la data nuova, e con where lo troviamo il posto da mettere
                9.              ALTER TABLE Orders                                              #Aggiunge una colonna straniera
                                ADD FOREIGN KEY (Colonna1) REFERENCES Table_Name(Colonna);   
                10.             SELECT Column + 1 as Column                                     #La l'addizione di 1 a tutti i numeri nella colonna
