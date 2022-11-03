@@ -26,3 +26,4 @@ altri commandi:1.              SELECT * FROM Table_Name                         
 
 Se la relazione è di uno a molti allora aggiungiamo la chiave primaria, Quelle di cardinalità massima = molti va a quello di uno.
 Se la relazione è molti a molti allora creamo una nuova tabella.
+ ![alt text](https://github.com/SongAlfio/SQL_Appunti/blob/main/%E5%BE%AE%E4%BF%A1%E5%9B%BE%E7%89%87_20221103191213.jpg) 
