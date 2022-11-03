@@ -23,4 +23,6 @@ altri commandi:1.              SELECT * FROM Table_Name                         
                                ADD FOREIGN KEY (Colonna1) REFERENCES Table_Name(Colonna);   
                10.             SELECT Column + 1 as Column                                     #La l'addizione di 1 a tutti i numeri nella colonna
                                FROM Table_Name;
-               
+
+Se la relazione è di uno a molti allora aggiungiamo la chiave primaria, Quelle di cardinalità massima = molti va a quello di uno.
+Se la relazione è molti a molti allora creamo una nuova tabella.
