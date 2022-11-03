@@ -26,4 +26,18 @@ altri commandi:1.              SELECT * FROM Table_Name                         
 
 Se la relazione è di uno a molti allora aggiungiamo la chiave primaria, Quelle di cardinalità massima = molti va a quello di uno.
 Se la relazione è molti a molti allora creamo una nuova tabella.
-![In a single picture](https://raw.githubusercontent.com/shadmazumder/Xcode/master/InOnePicture.png)
+
+Groupby: Ci sono le funzione di aggregazione, come: Sum(); Count(); Avg().                     #Sum e Count possono essere dentro parentesi l'asterisco, invece Avg deve perforza mettere il nome della colonna.
+Poi ci sono anche min() e max(), come avg, si usa il nome della colonna dentro le parentesi.
+
+Esempio di un Groupby:
+Select Nome_Colonna, Funzione() as Colonna_Funzione from Nome_Database
+Inner join Nome_Database1
+On Attributo_Chiave = Attributo_Chiave1
+Group by Nome_Colonna
+Order by Nome_Colonna (desc)
+
+La differenza tra having e where:
+Where si usa prima o quando non c'è il group by
+Having si usa dentro il group by
+
