@@ -41,3 +41,4 @@ La differenza tra having e where:
 Where si usa prima o quando non c'è il group by
 Having si usa dentro il group by
 
+Nel create table 	nome_colonna int CHECK (Estensione > 0) serve a controllare il valore della colonna
